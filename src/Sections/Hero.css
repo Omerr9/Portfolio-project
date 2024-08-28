@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-body {
+  background-color: #101010;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  text-align: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.heroImg {
+  width: 15rem;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 50rem;
+}
+
+.content h1 {
+  font-size: 4rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  background: linear-gradient(
+    240deg,
+    #c17833,
+    #c135a7
+  ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.content h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.content p {
+    font-weight: 400;
+    font-family: 'Inter';
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.content-btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.content-btns button {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+.content-btns button:hover {
+    cursor: pointer;
+    font-size: 1.01rem;
+}
+
+
+.btn1{
+    background-color: white;
+    color: black;
+}
+
+.btn2{
+    border: 1px solid white;
+}

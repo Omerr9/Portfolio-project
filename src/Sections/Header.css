@@ -1,0 +1,44 @@
+.navbar{
+    background-color: white;
+    border-radius: 10rem;
+    color: black;
+    border: 1px solid black;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Poppins;
+    margin-top: 1rem;
+}
+
+.navbar h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: #292929;
+    color: white;
+    border-radius: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: #323232;
+}
+
+.active {
+    font-weight: 700;
+    text-decoration: overline;
+}
